@@ -1,0 +1,44 @@
+
+  .slide {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Custom Arrow Styles */
+  .arrowPrev,
+  .arrowNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .arrowPrev:hover,
+  .arrowNext:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Line Animation */
+  .carousel .control-arrow:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -3px;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+  
+  .carousel:hover .control-arrow:after {
+    opacity: 1;
+  }
+  

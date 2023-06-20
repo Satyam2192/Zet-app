@@ -1,0 +1,87 @@
+/* Footer container */
+.sc-gxYJeL {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Logo container */
+  .sc-gxYJeL .sc-gBdaKG {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(236, 239, 245);
+    padding: 20px 0;
+  }
+  
+  /* Logo image */
+  .sc-gxYJeL .sc-gBdaKG img {
+    width: 99px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  /* Links container */
+  .sc-gxYJeL .sc-dRiDnV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 -20px;
+  }
+  
+  /* Links section */
+  .sc-gxYJeL .sc-iIUpXV {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Link text */
+  .sc-gxYJeL .sc-hDwLKR {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    margin-bottom: 12px;
+    text-decoration: none;
+    font-family: Graphie;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  /* Link section heading */
+  .sc-gxYJeL .sc-btEsBF {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+    margin-bottom: 16px;
+  }
+  
+  /* Social media icons container */
+  .sc-gxYJeL .sc-evhqKK {
+    display: flex;
+    margin-top: 16px;
+  }
+  
+  /* Social media icon */
+  .sc-gxYJeL .sc-dfqQGC {
+    padding-right: 16px;
+  }
+  
+  /* Bottom section */
+  .sc-gxYJeL .sc-kFuGxM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    text-align: center;
+    background-color: #008170;
+    padding: 16px 0;
+  }
+  
+  /* Copyright text */
+  .sc-gxYJeL .sc-hvOMNu {
+    font-size: 14px;
+    color: #666666;
+  }
+  
